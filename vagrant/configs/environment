@@ -1,0 +1,3 @@
+JAVA_HOME=/usr/lib/jvm/current
+JRE_HOME=$JAVA_HOME/jre/bin
+

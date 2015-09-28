@@ -1,0 +1,38 @@
+# name of the app
+name: Site 1
+
+# Path to web root relative to the repo root
+webroot: www
+
+# List of domains to be added to the Host machine's and VM's "hosts" file
+hosts:
+- site1.local
+- cool.site1.local
+
+# List of CF Mappings to create
+cfmappings: 
+- virtual: /foo
+  physical: www
+- virtual: /bar
+  physical: sdfds
+- virtual: /brad
+  physical: ''
+
+# List of datasources to create
+datasources: 
+- name: ds1
+  database: db1
+  host: sqlserverhost
+  port: 1433
+  username: 
+  password: 
+  class: com.microsoft.jdbc.sqlserver.SQLServerDriver
+  dsn: jdbc:sqlserver://{host}:{port}
+- name: ds2
+  database: db2
+  host: sqlserverhost
+  port: 1433
+  username: 
+  password: 
+  class: com.microsoft.jdbc.sqlserver.SQLServerDriver
+  dsn: jdbc:sqlserver://{host}:{port}
