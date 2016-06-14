@@ -9,7 +9,7 @@ vm_ip_address = "192.168.60.25"
 vm_naked_hostname = "lucee.dev"
 vm_name = "Lucee-CFML"
 vm_max_memory = 1024
-vm_num_cpus = 2
+vm_num_cpus = 1
 vm_max_host_cpu_cap = "100"
 
 # synced folder configuration
