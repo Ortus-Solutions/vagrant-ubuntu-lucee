@@ -58,7 +58,7 @@ The first time you clone the repo and bring the box up, it may take several minu
 
 ```
 $ git clone git@github.com:Ortus-Solutions/vagrant-centos-lucee.git
-$ cd vagrant-centos-lucee && vagrant up
+$ cd vagrant-centos-lucee/vagrant && vagrant up
 ```
 
 Once the Vagrant box finishes and is ready, you should see something like this in your terminal:
