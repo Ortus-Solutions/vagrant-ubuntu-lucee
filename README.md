@@ -79,7 +79,7 @@ Once the Vagrant box finishes and is ready, you should see something like this i
 ========================================================================
 ```
 
-> **Mac Note** : You might be required your administrator password in order to modify the `hosts` file. Unless you run the command with `sudo vagrant up`
+> **Mac Note** : You might be required to enter your administrator password in order to modify the `hosts` file. Unless you run the command with `sudo vagrant up`
 
 Once you see that, you should be able to browse to [http://www.lucee.dev/](http://www.lucee.dev/)
 or [http://192.168.1.100/](http://192.168.1.100/)
